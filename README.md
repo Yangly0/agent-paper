@@ -7,11 +7,11 @@
 - **多格式输入支持**：PDF 文件路径、文本内容或论文链接
 - **智能内容总结**：自动提取论文的关键信息
 - **结构化报告**：生成包含论文信息、问题、方法、创新点和实验结果的完整报告
-- **自动保存**：报告自动保存到 ~/Documents/notes/ 目录
+- **自动保存**：报告自动保存到当前执行目录
 
 ## 使用方法
 
-在 Claude Code 中输入：
+在 Claude Code 或 其他Agent Cli 中输入：
 
 ```
 /agent-paper /path/to/paper.pdf
@@ -25,7 +25,7 @@
 
 ## 输出格式
 
-生成的报告文件命名格式：`{发表时间}-{作者}-{题目}.md`
+生成的报告文件命名格式：`{发表时间}-{作者}-{题目}.md`，保存到当前执行目录
 
 报告包含以下部分：
 - 论文基本信息（标题、作者、发表时间、来源）
@@ -38,9 +38,8 @@
 
 ```
 agent-paper/
+├── skills/agent-paper/SKILL.md  # Agent Skill 配置和提示词
 ├── README.md                    # 项目说明文档
-├── skills/agent-paper/          # Agent Skill 目录
-│   └── SKILL.md                 # Skill 配置和提示词
 └── AGENTS.md                    # Agent 操作指南
 ```
 

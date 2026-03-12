@@ -13,10 +13,9 @@
 
 ```
 agent-paper/
+├── skills/agent-paper/SKILL.md  # Agent Skill 配置和提示词
 ├── README.md                    # 项目说明文档
-├── skills/agent-paper/          # Agent Skill 
-├── AGENT.md                     # Agent Skill 操作指南
-└── .git/                        # Git 版本控制目录
+└── AGENTS.md                    # Agent 操作指南
 ```
 
 ## Skill 执行流程
@@ -25,18 +24,7 @@ agent-paper/
 1. 接收论文输入：等待用户提供论文（PDF 路径、文本内容或论文链接）
 2. 总结核心内容
 3. 生成报告
-4. 保存并打开：保存到 ~/Documents/notes/ 目录并打开文件
-
-## 输出文件规范
-
-生成的报告文件遵循以下命名规范：
-
-- 文件名格式：{发表时间}-{作者}-{题目}.md
-- 发表时间、作者、题目通过文章内容提取
-
-## 输出文件模板
-
-## 输出质量标准
+4. 保存并打开：保存到当前执行目录并打开文件
 
 ## 开发说明
 

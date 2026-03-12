@@ -4,7 +4,7 @@
 
 - **标题**：BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers
 - **作者**：Zhiqi Li, Wenhai Wang, Hongyang Li, Enze Xie, Chonghao Sima, Tong Lu, Qiao Yu, Jifeng Dai
-- **发表时间**：2022年7月（ECCV 2022）
+- **发表时间**：2022年3月（arXiv预印本），2022年7月（ECCV 2022）
 - **发表平台**：ECCV 2022 (European Conference on Computer Vision)
 
 ## 研究问题
